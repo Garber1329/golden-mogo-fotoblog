@@ -86,6 +86,12 @@ section {
 
 .service-list {
   margin-top: 65px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.service-item{
+  width: 33%;
 }
 
 .service-item:not(:last-child) {

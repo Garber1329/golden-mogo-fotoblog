@@ -12,6 +12,12 @@ body {
   font-size: 14px;
 }
 
+.container{
+  width: 942px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 .header-navigation {
   margin-top: 40px;
 }
