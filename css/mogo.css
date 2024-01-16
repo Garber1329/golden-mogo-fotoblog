@@ -23,11 +23,6 @@ body {
   margin-top: 40px;
 }
 
-.header-list {
-  display: flex;
-  text-decoration: none;
-}
-
 .header-item {
   list-style: none;
 }
@@ -86,8 +81,6 @@ section {
 
 .service-list {
   margin-top: 65px;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .service-item{
@@ -128,10 +121,6 @@ section {
   object-fit: cover;
 }
 
-.who-we-are-list {
-  display: flex;
-}
-
 .who-we-are-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -140,16 +129,11 @@ section {
   margin-top: 30px;
 }
 
-.who-we-are-name {
-  text-align: center;
-}
-
 .who-we-are-profesion {
   font-family: "Roboto", sans-serif;
   color: #b6b6b6;
   font-weight: 300;
   font-style: italic;
-  text-align: center;
 }
 
 .footer {

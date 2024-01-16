@@ -65,18 +65,24 @@
             <div class="container">
                 <h2 class="contact-title title">Contact us</h2>
                 <form class="contact-form" action="/submit_form" method="post">
-                    <label class="contact-label" for="name">Your Name:</label><br>
-                    <input class="contact-input" type="text" id="name" name="name" required><br><br>
-
-                    <label class="contact-label" for="email">Your E-mail:</label><br>
-                    <input class="contact-input" type="email" id="email" name="email" required><br><br>
-
-                    <label class="contact-label" for="subject">Subject:</label><br>
-                    <input class="contact-input" type="text" id="subject" name="subject" required><br><br>
-
-                    <label class="contact-label" for="message">Your Message:</label><br>
-                    <textarea class="contact-input contact-textarea" id="message" name="message" rows="4" cols="50"
-                        required></textarea><br><br>
+                    <div class="form-wrap">
+                        <div class="form-wrap-left">
+                            <label class="contact-label" for="name"></label><br>
+                            <input class="contact-input" type="text" id="name" name="name" required><br><br>
+                        
+                            <label class="contact-label" for="email"></label><br>
+                            <input class="contact-input" type="email" id="email" name="email" required><br><br>
+                        
+                            <label class="contact-label" for="subject"></label><br>
+                            <input class="contact-input" type="text" id="subject" name="subject" required><br><br>
+                        </div>
+                        
+                        <div class="form-wrap-right">
+                            <label class="contact-label" for="message"></label><br>
+                            <textarea class="contact-input contact-textarea" id="message" name="message" rows="4" cols="50"
+                                required></textarea><br><br>
+                        </div>
+                    </div>
 
                     <input class="contact-button" type="submit" value="Send Message">
                 </form>
