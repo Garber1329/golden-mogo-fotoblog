@@ -19,10 +19,6 @@ body {
   padding: 0 15px;
 }
 
-.header-navigation {
-  margin-top: 40px;
-}
-
 .header-item {
   list-style: none;
 }
@@ -84,7 +80,7 @@ section {
 }
 
 .service-item{
-  width: 33%;
+  width: 28%;
 }
 
 .service-item:not(:last-child) {
@@ -92,7 +88,7 @@ section {
 }
 
 .service-item h4 {
-  margin: 20px 0;
+  margin-bottom: 20px;
   text-transform: uppercase;
 }
 
@@ -116,17 +112,27 @@ section {
 }
 
 .who-we-are-item img {
-  width: 380px;
-  height: 470px;
+  width: 100%;
+  
   object-fit: cover;
 }
 
-.who-we-are-item:not(:last-child) {
-  margin-right: 30px;
+.who-we-are-item{
+  width: 380px;
 }
 
 .who-we-are-item figcaption {
   margin-top: 30px;
+  text-align: center;
+}
+
+.who-we-are-title {
+  text-align: center;
+}
+
+.who-we-are-list {
+  display: flex;
+  justify-content: space-between;
 }
 
 .who-we-are-profesion {
@@ -175,4 +181,49 @@ section {
 .footer-copy_link {
   text-decoration: none;
   color: var(--active-link);
+}
+
+.header .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-list{
+  display: flex
+}
+
+.header{
+  padding: 17px 0;
+}
+
+.service-title{
+  text-align: center;
+}
+
+.service-red-line{
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.service-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.service-item{
+  display: flex;
+  align-items: flex-start;
+}
+
+.service-item img{
+  width: 37px;
+  margin-right: 18px;
+}
+
+.footer .container{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
 }
