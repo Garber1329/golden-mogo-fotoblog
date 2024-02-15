@@ -226,3 +226,24 @@ section {
   justify-content:space-between;
   align-items: center;
 }
+
+.who-we-are-img-wrap{
+  position: relative;
+  display: block;
+}
+.who-we-are-gradient{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-image: linear-gradient(to bottom, #f3743583, #fdc63083);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.who-we-are-img-wrap:hover .who-we-are-gradient{
+  display: flex;
+}
+.who-we-are-img{
+  display: block;
+}
